@@ -21,7 +21,7 @@
   left: .1em;
 }
 .heroes li.selected {
-  background-color: #CFD8DC;
+  background-color: rgb(112, 159, 179);
   color: white;
 }
 .heroes li.selected:hover {
