@@ -10,8 +10,8 @@ import { HEROES } from '../mock-heroes';
 
 export class HeroesComponent implements OnInit {
   hero: Hero = {
-    id: 0,
-    name: 'Winston'
+    id: null,
+    name: null
   }
 
   heroes = HEROES;

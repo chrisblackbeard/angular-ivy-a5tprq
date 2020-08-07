@@ -9,13 +9,9 @@
 </ul>
 
 
-<h2>{{hero.name | uppercase}} Details</h2>
-
-
-
-<div><span>id: </span>{{hero.id}}</div>
-
-<div>
+<div *ngIf="hero.id">
+  <h2>{{hero.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{hero.id}}</div>
   <label>name:
     <input [(ngModel)]="hero.name" placeholder="name"/>
   </label>
