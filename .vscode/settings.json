@@ -428,10 +428,13 @@
    * Controls fading out of unused variables.
    */
   // "editor.showUnused": true
+  "emmet.showAbbreviationSuggestions": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "vue-html": "html",
     "razor": "html",
     "plaintext": "pug"
-  }
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.snippetSuggestions": "top"
 }
